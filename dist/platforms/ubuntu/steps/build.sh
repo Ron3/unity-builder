@@ -146,7 +146,10 @@ unity-editor \
   -batchmode \
   -quit \
   -projectPath "$UNITY_PROJECT_PATH" \
+  -buildTarget "$BUILD_TARGET" \
   -executeMethod "$BUILD_METHOD"
+  
+
 
 # Catch exit code
 BUILD_EXIT_CODE=$?

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "Ron-v1-Entrypoint"
+
 # Ensure machine ID is randomized for personal license activation
 if [[ "$UNITY_SERIAL" = F* ]]; then
   echo "Randomizing machine ID for personal license activation"
