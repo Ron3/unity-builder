@@ -74,7 +74,7 @@ if [[ "$RUN_AS_HOST_USER" == "true" ]]; then
   # Switch to the host user so we can create files with the correct ownership
   su $USERNAME -c "$SHELL -c 'source /steps/runsteps.sh'"
 else
-  echo "Running as root"
+  echo "Ron-v1 Running as root"
 
   # Run as root
   source /steps/runsteps.sh
